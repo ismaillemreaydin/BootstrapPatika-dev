@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    padding-top: 2rem; /* Yukarıdan boşluk */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
+  }
+  
+  header {
+    grid-column: 1 / -1;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc; /* Navbar kenarlığı */
+    padding: 1rem 0;
+  }
+  
+  .logo {
+    margin-right: auto; /* Logo sola yaslanacak */
+  }
+  
+  .logo-img {
+    width: 100px; /* Logo genişliği */
+  }
+  
+  .search {
+    margin-right: 2rem; /* Arama alanı sağdan boşluk */
+  }
+  
+  .search-input {
+    width: 200px; /* Arama alanı genişliği */
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu ul li {
+    margin-right: 1rem; /* Menü öğeleri arası boşluk */
+  }
+  
+  .menu ul li:last-child {
+    margin-right: 0; /* Son menü öğesinin boşluğunu sıfırla */
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 50px; /* Profil fotoğrafı genişliği */
+    border-radius: 50%; /* Yuvarlak kenarlık */
+    margin-right: 0.5rem; /* Profil fotoğrafı sağdan boşluk */
+    border: 2px solid #fff; /* Kenarlık */
+  }
+  
+  .profile span {
+    margin-right: 1rem; /* Profil adı sağdan boşluk */
+  }
+  
+  .content {
+    grid-column: span 6;
+  }
+  
+  .sidebar {
+    grid-column: span 3;
+  }
+  
+  .footer {
+    grid-column: 1 / -1;
+  }
+  
+  /* Renkler */
+  img[src="foto.jpg"] {
+    fill: #70B5F9; /* Fotoğraf Renk */
+  }
+  img[src="video.jpg"] {
+    fill: #7FC15E; /* Video Renk */
+  }
+  img[src="etkinlik.jpg"] {
+    fill: #E7A33E; /* Etkinlik Renk */
+  }
+  img[src="yazi.jpg"] {
+    fill: #F5987E; /* Yazı Yaz Renk */
+  }
+  
+  /* Diğer düzenlemeler */
+  .like, .heart, .clap {
+    margin-right: 0.5rem; /* Beğenme, kalp ve alkışa margin */
+  }
+  
+  /* Bootstrap düzenlemesi */
+  button {
+    /* Bootstrap Button Stili */
+  }
+  
+  /* Sticky Bölümler */
+  .sticky {
+    position: sticky;
+    top: 4rem; /* Yukarıdan 4rem mesafe */
+    overflow: visible;
+  }
+  
+  /* Mesajlaşma Genişliği */
+  .message {
+    width: 300px;
+    background-color: #fff;
+  }
+  
