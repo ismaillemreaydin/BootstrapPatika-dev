@@ -1,0 +1,58 @@
+/* style.css */
+body {
+    padding-top: 54px; /* Navbar'ı yukarı sabitlemek için body'e padding verme */
+    background-color: #fafafa; /* Instagram arkaplan rengi */
+}
+
+.navbar {
+    height: 54px; /* Navbar yüksekliği */
+}
+
+.logo {
+    margin-left: 192px; /* Navbar logosu için sol margin */
+}
+
+.form-control {
+    margin-left: 5px; /* Arama kutusu için sol margin */
+}
+
+.form-control::placeholder {
+    background: url('assets/search-icon.png') no-repeat 5px center; /* Arama simgesi */
+}
+
+.nav-item {
+    margin-left: 5px; /* Sağ üst menü öğesi için sol margin */
+}
+
+@media (max-width: 576px) {
+    .nav-item {
+        display: none; /* Küçük ekranlarda sağ üst menüyü gizleme */
+    }
+}
+
+.middlearea {
+    margin-top: 2rem; /* İçerik alanı üst margin */
+}
+
+.rightpanel {
+    position: sticky; /* Sağ panel için yapışkan pozisyon */
+    top: 54px; /* Navbar yüksekliği kadar aşağı */
+    background-color: #ffffff; /* Sağ panel arkaplan rengi */
+}
+
+.card-header,
+.card-footer {
+    background-color: #ffffff; /* Card header ve footer arkaplan rengi */
+}
+
+.card-footer {
+    border: none; /* Beğenme, yorum yapma, paylaşma kısmında border olmaması */
+}
+
+.bookmark-icon {
+    margin-left: 7px; /* Bookmark ikonu offset */
+}
+
+.d-flex {
+    justify-content: flex-end; /* Yorum paylaş metnini sağa almak */
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-ZhScFgj5cdYpL/ZC/w4wS1qZ5zIM3B2gJfENRvuYqKyDg4e7UyNuh4GQIW6lT/L85BX5aKuqfVAg41TgdeUcPA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+        <a class="navbar-brand logo" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex justify-content-center">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Content -->
+<div class="container mt-5 pt-5">
+    <div class="row">
+        <!-- Middle Area -->
+        <div class="col-md-8 offset-md-4 middlearea" style="max-height: 200px !important;">
+            <!-- Gönderiler -->
+            <div class="card">
+                <div class="card-header bg-white">Gönderi Başlığı</div>
+                <div class="card-body">Gönderi İçeriği</div>
+                <div class="card-footer bg-white">
+                    <div class="d-flex justify-content-end">
+                        <a href="#" class="text-decoration-none me-3">Beğen</a>
+                        <a href="#" class="text-decoration-none me-3">Yorum Yap</a>
+                        <a href="#" class="text-decoration-none me-3">Paylaş</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sağ Panel -->
+        <div class="col-md-4 stickysidebar">
+            <div class="rightpanel bg-white">
+                <div class="mt-2 ms-5">
+                    <a href="#" class="text-decoration-none">Tümünü Gör</a>
+                    <a href="#" class="text-decoration-none ms-3">Takip Et</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-zHj5d+8N0wJl7g2T9eikZdPKgs0tf+tW4bTCszax0cO3V/aJ25/MEuWWE2XF5rDzZlKmGWbXxXb4pYw3jsRU0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0-alpha1/js/bootstrap.min.js" integrity="sha512-0IaZ0fPBNPpFVpe8PajcvU8KXx9xLXo8nFvnspXQ0uO8kiTkik2LkG+veoXqmnxSrnnbApxCZzDf2Kuxr/yvTw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
